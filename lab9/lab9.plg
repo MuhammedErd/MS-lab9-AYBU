@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil Projects\lab9\lab9.uvproj
+Project File Date:  05/15/2018
+
+<h2>Output:</h2>
+assembling lab9.s...
+lab9.s(11): error: A1112E: Expected address expression
+lab9.s(14): error: A1112E: Expected address expression
+lab9.s(20): error: A1112E: Expected address expression
+lab9.s(24): error: A1108E: Multiply defined symbol 'F1'
+lab9.s(30): error: A1106E: Missing comma
+lab9.s(32): error: A1108E: Multiply defined symbol 'F2'
+lab9.s - 6 Error(s), 0 Warning(s).
+assembling lab9.s...
+lab9.s(30): error: A1106E: Missing comma
+lab9.s - 1 Error(s), 0 Warning(s).
+assembling lab9.s...
+lab9.s(11): error: A1112E: Expected address expression
+lab9.s(14): error: A1112E: Expected address expression
+lab9.s(20): error: A1112E: Expected address expression
+lab9.s(24): error: A1108E: Multiply defined symbol 'F1'
+lab9.s(32): error: A1108E: Multiply defined symbol 'F2'
+lab9.s - 5 Error(s), 0 Warning(s).
+assembling lab9.s...
+lab9.s(31): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+lab9.s(37): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+lab9.s - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+"lab9.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+assembling lab9.s...
+lab9.s(31): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+lab9.s(37): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+"lab9.axf" - 0 Error(s), 2 Warning(s).
